@@ -1,0 +1,48 @@
+.card {
+    width: 268px;
+    height: 474px;
+}
+
+.img-card{
+    width: 200px;
+    height: 168px;
+    margin-top: 50px;
+}
+
+.descricao {
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px 5px;
+    margin-bottom: 50px;
+}
+
+.preco {
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #9400D3;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+
+.pagamento {
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px 5px;
+    font-size: 11px;
+}
+
+.botao-card {
+    background-color: #9400D3;
+    color: #ffffff;
+    font-weight: bold;
+    width: 100%;
+    height: 35px;
+    font-size: 15px;
+    text-align: center;
+    border: 0;
+}
+
+.botao-comprar {
+    padding: 10px 5px;
+}
