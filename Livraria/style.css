@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #E5E5E5;
+}
+
+header img {
+    height: 90px;
+    width: 250px;
+}
+
+header input {
+    height: 40px;
+    width: 700px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cabecalho-container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
