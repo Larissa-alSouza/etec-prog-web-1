@@ -1,0 +1,34 @@
+<script>
+
+    /* 4-Peça para o usuário digitar um valor para peso, um valor para altura e calcule o IMC mostrando na tela o resultado de acordo com a tabela oficial */
+
+    var altura = parseFloat(prompt("Insira sua altura"))
+    var peso = parseFloat(prompt("Insira seu peso"))
+
+    var imc = peso / altura ** 2
+
+    if(imc <= 18.5)
+    {
+        document.write(imc + " Seu peso esta abaixo do normal")
+    }
+    else if(imc >= 18.6 && imc <= 24.9)
+    {
+        document.write(imc.toFixed(1) + " Seu peso eh normal")
+    }
+    else if(imc >= 25 && imc <= 29.9)
+    {
+        document.write(imc.toFixed(1) + " Voce esta com sobrepeso")
+    }
+    else if(imc >= 30 && imc <= 34.9)
+    {
+        document.write(imc.toFixed(1) + " Voce esta com obesidade grau I")
+    }
+    else if(imc >= 35 && imc <= 39.9)
+    {
+        document.write(imc.toFixed(1) + " Voce esta com obesidade grau II")
+    }
+    else
+    {
+        document.write(imc.toFixed(1) + " Voce esta com obesidade grau III")
+    }
+</script>
