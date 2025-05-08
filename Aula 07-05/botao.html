@@ -1,0 +1,24 @@
+<button onclick="cliqueBotao()"> Somar </button>
+
+<script>
+
+    function mostrarAlerta(texto)
+    {
+        alert(texto)
+    }
+
+    function somar(num1, num2)
+    {
+        var soma = Number(num1) + Number(num2)
+        return soma
+    }
+
+    function cliqueBotao()
+    {
+        var num1 = prompt("Digite o primeiro numero")
+        var num2 = prompt("Digite o segundo numero")
+        var resultado = somar(num1, num2)
+        mostrarAlerta(resultado)
+    }
+
+</script>

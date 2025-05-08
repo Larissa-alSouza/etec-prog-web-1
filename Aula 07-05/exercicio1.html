@@ -1,0 +1,26 @@
+<script>
+
+    function mostrarAlerta(texto)
+    {
+        alert(texto)
+    }
+
+    function somar(num1, num2)
+    {
+        var soma = Number(num1) + Number(num2)
+        return soma
+    }
+
+    mostrarAlerta(somar(num1, num2))
+
+    var num1 = prompt("Digite o primeiro numero")
+    var num2 = prompt("Digite o segundo numero")
+    var resultado = somar(num1, num2)
+    mostrarAlerta(resultado)
+
+    //mostrarAlerta(somar(prompt("Digite o primeiro numero"), prompt("Digite o segundo numero")))
+
+    //mostrarAlerta("Hello World!")
+    //mostrarAlerta(prompt("Digite algo"))
+
+</script>
