@@ -1,0 +1,44 @@
+<input type="number" name="num1" id="num1">
+<input type="number" name="num2" id="num2">
+
+<button onclick="adicao()">+</button>
+<button onclick="subtracao()">-</button>
+<button onclick="multiplicacao()">*</button>
+<button onclick="divisao()">/</button>
+
+<script>
+
+    function adicao()
+    {
+        var valor1 = document.getElementById("num1")
+        var valor2 = document.getElementById("num2")
+
+        alert( Number(valor1.value) + Number(valor2.value) )
+    }
+
+    function subtracao()
+    {
+        var valor1 = document.getElementById("num1")
+        var valor2 = document.getElementById("num2")
+
+        alert( Number(valor1.value) - Number(valor2.value) )
+    }
+
+    function multiplicacao()
+    {
+        var valor1 = document.getElementById("num1")
+        var valor2 = document.getElementById("num2")
+
+        alert( Number(valor1.value) * Number(valor2.value) )
+    }
+
+    function divisao()
+    {
+        var valor1 = document.getElementById("num1")
+        var valor2 = document.getElementById("num2")
+
+        alert( Number(valor1.value) / Number(valor2.value) )
+    }
+
+
+</script>
