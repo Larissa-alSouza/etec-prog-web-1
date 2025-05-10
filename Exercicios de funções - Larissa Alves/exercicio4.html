@@ -1,0 +1,23 @@
+<script>
+
+    /*Crie uma função chamada divisão que receba dois números como parâmetros e retorne a divisão entre eles. Verifique se o coeficiente é zero pois não existe divisão por zero, avise o usuário que não teve divisão*/
+
+    function divisao(val1, val2)
+    {
+        var val1 = prompt("Digite o dividendo")
+        var val2 = prompt("Digite o divisor")
+
+        if(val2 == 0)
+        {
+            alert("Não existe divisão por 0")
+        }
+        else
+        {
+            var result = Number(val1) / Number(val2)
+        }
+
+        alert(result)
+    }
+
+    divisao()
+</script>
