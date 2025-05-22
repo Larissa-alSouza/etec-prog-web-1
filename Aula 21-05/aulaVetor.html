@@ -1,0 +1,18 @@
+<script>
+
+        
+    var nomes = ["Larissa", "Claudia", "Maria", "Gisele", "Mel", "Fernando", "Julio", "Ana", "Viviane", "Yasmin", "Camila", "Lukas", "Dheyvis", "Laura"]
+
+    //alert(nomes[numeroAleatorio(nomes.length)])
+
+    for(var i = 0; i < nomes.length; i++)
+    {
+        document.write(nomes[i] + "<br>")
+    }
+
+    function numeroAleatorio(numeroMaximo)
+    {
+        return Math.floor(Math.random() * numeroMaximo)
+    }
+
+</script>
