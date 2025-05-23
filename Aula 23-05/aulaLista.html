@@ -1,0 +1,62 @@
+<script>
+
+        
+    var nomes = ["Larissa", "Claudia", "Maria", "Gisele", "Mel", "Fernando", "Julio", "Ana", "Viviane", "Yasmin", "Camila", "Lukas", "Dheyvis", "Laura"]
+
+    //alert(nomes[numeroAleatorio(nomes.length)])
+
+    for(var i = 0; i < nomes.length; i++)
+    {
+        document.write(nomes[i] + "<br>")
+    }
+
+    function numeroAleatorio(numeroMaximo)
+    {
+        return Math.floor(Math.random() * numeroMaximo)
+    }
+
+    //nomes.reverse(); inverte a ordem dos elemento
+    //nomes.shift(); remove o primeiro elemento
+    //nomoes.unshift(0); adiona 0 no começo
+    //nomes.pop(); remove o último elemento
+    //nomes.push(4); adciona 4 no final
+
+    /*
+            ***novo modelo de for***
+            nomes.forEach(
+            (valor, indice) => {
+                document.write("indice: " + indice + " valor " + valor + "<br>")
+            }
+        );
+    */
+
+    exibirLista(nomes)
+    nomes.reverse(); //inverte a ordem dos elementos
+
+    exibirLista(nomes)
+    nomes.unshift("Novo nome no inicio da lista"); 
+
+    exibirLista(nomes)
+    nomes.shift(); //remove do começo
+
+    exibirLista(nomes)
+    nomes.push("Joaquim do final da lista");
+
+    exibirLista(nomes)
+    nomes.pop(); //remove do final
+
+    exibirLista(nomes)
+
+    document.write("<hr>")
+
+    function exibirLista(lista)
+    {
+        document.write("<hr>")
+        lista.forEach(
+            (valor, indice) => {
+                document.write("indice: " + indice + " valor " + valor + "<br>")
+            }
+        );
+    }
+
+</script>
