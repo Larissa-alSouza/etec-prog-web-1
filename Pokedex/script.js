@@ -16,10 +16,7 @@ function nome()
 
     var url = "https://pokeapi.co/api/v2/pokemon/" + input.value
     fetch(url)
-        .then(response => {
-            if (!response.ok) throw new Error("Pokémon não encontrado");
-            return response.json();
-        })
+        .then(response => response.json())
 
         .then(dados => {
             var foto = document.getElementById("foto")
